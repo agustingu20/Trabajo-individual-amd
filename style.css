@@ -37,7 +37,7 @@ nav > div > div > div > a:active {
 
 .image-section {
   width: 100%;
-  background-image: url(/img/fondo\ amd.jpg);
+  background-image: url(./img/fondo\ amd.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;

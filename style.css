@@ -1,0 +1,100 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* CSS NAVBAR */
+
+.logo-amd-navbar {
+  width: 70px;
+}
+
+.button-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  direction: row;
+}
+
+/* CSS NAVBAR Buttons */
+
+.button {
+  padding: 0.1rem 0.25rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+nav > div > div > div > a:hover {
+  color: rgb(175, 0, 0);
+  transform: scale(1.03);
+}
+
+nav > div > div > div > a:active {
+  color: red;
+  transform: scale(1.03);
+}
+
+/* CSS Sección Imagen + Título */
+
+.image-section {
+  width: 100%;
+  background-image: url(/img/fondo\ amd.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-presentation {
+  width: 100%;
+}
+
+.image-title {
+  text-align: center;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.image-h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 10px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* CSS Cards Tecnología */
+
+.section-tech {
+  background: rgba(225, 225, 226, 0.253);
+}
+
+.tech-title {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: red;
+  -webkit-text-stroke: 0.1px rgba(0, 0, 0, 0.555);
+  letter-spacing: 5px;
+}
+
+.image-card {
+  width: 60%;
+}
+
+.card-style {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-tech {
+  width: 15rem;
+  margin: 1rem 1.5rem;
+}

@@ -145,26 +145,32 @@ nav > div > div > div > a:active {
   background-color: #ed1c24;
 }
 
-.iframe-wh{
+.iframe-wh {
   width: 560px;
   height: 315px;
 }
 
-.iframe-responsive{
+.iframe-responsive {
   width: 100%;
 }
 
 @media only screen and (max-width: 1200px) {
-  .iframe-wh {width: 403px;
-  height: 227px;}
-
+  .iframe-wh {
+    width: 403px;
+    height: 227px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
-  .iframe-wh {width: 403px;
-  height: 227px;}
-
-
+  .iframe-wh {
+    width: 403px;
+    height: 227px;
+  }
+}
 
 @media only screen and (max-width: 576px) {
-  .iframe-wh {width: 302px;
-    height: 170px;}
+  .iframe-wh {
+    width: 302px;
+    height: 170px;
+  }
+}

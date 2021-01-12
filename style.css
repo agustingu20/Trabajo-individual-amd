@@ -8,10 +8,10 @@ body {
   width: 70px;
 }
 
-.button-navbar {
-  display: flex;
-  flex-wrap: wrap;
-  direction: row;
+@media only screen and (min-width: 768px) {
+  .navbar-align {
+    width: 450px;
+  }
 }
 
 /* CSS NAVBAR Buttons */

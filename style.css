@@ -100,7 +100,7 @@ nav > div > div > div > a:active {
   margin: 1rem 1.5rem;
 }
 
-/* CSS modal */
+/* CSS modal  RX*/
 
 .bg-modal {
   background-image: url(./img/fondo-oscuro.jpg);
@@ -172,5 +172,92 @@ nav > div > div > div > a:active {
   .iframe-wh {
     width: 302px;
     height: 170px;
+  }
+}
+
+/* CSS Modal FreeSync */
+
+.image-FS {
+  width: 100%;
+}
+
+.FSdiv {
+  max-width: 363.33px;
+  margin: 8px;
+  padding: 1rem;
+}
+
+.FSdiv1 {
+  background-color: rgb(241, 241, 241);
+}
+
+.text-FS {
+  text-align: justify;
+  margin-top: 1rem;
+  font-size: 15px;
+}
+
+.text-FS-ul {
+  text-align: justify;
+  margin-top: 1rem;
+  font-size: 15px;
+  padding-left: 1rem;
+}
+
+.alienware {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  margin-right: 1rem;
+}
+
+.viewsonic {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  margin-left: 1rem;
+}
+
+.img-alienware {
+  max-width: 100%;
+  margin: 8px;
+  padding: 1rem;
+}
+
+.title-alienware {
+  padding-top: 2rem;
+  margin: 0;
+}
+
+.text-AV {
+  text-align: justify;
+  font-size: 15px;
+  margin-bottom: 0.8rem;
+}
+
+.text-AV-ul {
+  text-align: justify;
+  font-size: 15px;
+  padding-left: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .alienware {
+    margin: 1rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .viewsonic {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 0;
   }
 }

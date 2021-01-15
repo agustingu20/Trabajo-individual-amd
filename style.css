@@ -100,7 +100,118 @@ nav > div > div > div > a:active {
   margin: 1rem 1.5rem;
 }
 
-/* CSS modal  RX*/
+/* CSS Modal Ryzen */
+
+.game-farcry6 {
+  width: 40%;
+}
+
+.game-char {
+  width: 60%;
+  text-align: justify;
+  color: white;
+  margin-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.div-farcry {
+  background-color: rgba(240, 248, 255, 0.13);
+}
+
+.text-ryzen {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.cpu-ryzen {
+  padding-left: 1.5rem;
+  width: 40%;
+}
+
+.cpu-char {
+  width: 60%;
+  text-align: justify;
+  color: white;
+  margin-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+.board-ryzen {
+  padding: 1rem;
+  width: 40%;
+}
+
+.board-char {
+  width: 60%;
+  text-align: justify;
+  color: white;
+  margin-top: 3.5rem;
+  padding-right: 1.5rem;
+}
+
+.div-board {
+  background-color: rgba(240, 248, 255, 0.13);
+}
+
+@media only screen and (max-width: 1200px) {
+  .game-farcry6 {
+    width: 70%;
+  }
+  .game-char {
+    width: 100%;
+    text-align: justify;
+    color: white;
+    margin-top: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .div-farcry {
+    background-color: rgba(240, 248, 255, 0.13);
+    justify-content: center;
+  }
+
+  .cpu-ryzen {
+    padding: 0.5rem;
+    width: 70%;
+  }
+
+  .cpu-char {
+    width: 100%;
+    text-align: justify;
+    color: white;
+    margin-top: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .div-cpu {
+    justify-content: center;
+  }
+
+  .board-ryzen {
+    margin-top: 1rem;
+    padding: 0;
+    width: 70%;
+  }
+
+  .board-char {
+    width: 100%;
+    text-align: justify;
+    color: white;
+    margin-top: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .div-board {
+    background-color: rgba(240, 248, 255, 0.13);
+    justify-content: center;
+  }
+}
+
+/* CSS Modal  RX*/
 
 .bg-modal {
   background-image: url(./img/fondo-oscuro.jpg);

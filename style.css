@@ -100,6 +100,13 @@ nav > div > div > div > a:active {
   margin: 1rem 1.5rem;
 }
 
+@media only screen and (max-width: 860px) {
+  .card-tech-freesync {
+    width: 15rem;
+    margin: 3rem 1.5rem;
+  }
+}
+
 /* CSS Modal Ryzen */
 
 .game-farcry6 {

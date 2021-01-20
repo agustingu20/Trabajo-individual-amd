@@ -384,6 +384,36 @@ nav > div > div > div > a:active {
   }
 }
 
+/* CSS Portfolio */
+
+.div-portfolio-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.port-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: red;
+  -webkit-text-stroke: 0.1px rgba(0, 0, 0, 0.555);
+  letter-spacing: 5px;
+}
+
+.port-title1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
 /* CSS Footer */
 
 footer {

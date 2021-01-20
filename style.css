@@ -414,6 +414,10 @@ nav > div > div > div > a:active {
   color: black;
 }
 
+.card {
+  border-radius: 5%;
+}
+
 /* CSS Footer */
 
 footer {

@@ -448,6 +448,23 @@ nav > div > div > div > a:active {
   list-style: circle;
 }
 
+/*CSS Formulario de contacto */
+
+.title-form {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.form-div {
+  width: 800px;
+}
+
+.form-div-bg {
+  background-image: url();
+}
+
 /* CSS Footer */
 
 footer {

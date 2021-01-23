@@ -418,6 +418,36 @@ nav > div > div > div > a:active {
   border-radius: 5%;
 }
 
+.bg-modal1 {
+  background-image: url(./img/modal-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-modal-vega {
+  width: 180px;
+}
+
+.img-modal-performance {
+  width: 100px;
+}
+
+.img-modal-fidelity {
+  width: 100px;
+}
+
+.card-modal {
+  background: rgba(0, 0, 0, 0.712);
+  border-radius: 3%;
+  color: white;
+  font-size: 13px;
+}
+
+.icon-list {
+  list-style: circle;
+}
+
 /* CSS Footer */
 
 footer {

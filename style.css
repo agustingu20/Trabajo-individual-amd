@@ -451,6 +451,8 @@ nav > div > div > div > a:active {
 /*CSS Formulario de contacto */
 
 .title-form {
+  color: white;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   padding-top: 1rem;
@@ -462,7 +464,10 @@ nav > div > div > div > a:active {
 }
 
 .form-div-bg {
-  background-image: url();
+  background-image: url(./img/mapamundi2.svg);
+  background-position: center;
+  background-size: cover;
+  background-color: gray;
 }
 
 /* CSS Footer */

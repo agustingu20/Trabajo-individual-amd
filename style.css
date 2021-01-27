@@ -44,6 +44,7 @@ nav > div > div > div > a:active {
   bottom: 0;
   right: 0px;
   width: 40px;
+  z-index: 20;
 }
 
 .enlaces1 {
@@ -52,7 +53,7 @@ nav > div > div > div > a:active {
 }
 
 .button-color-up {
-  color: black;
+  color: red;
 }
 
 /* CSS Sección Imagen + Título */

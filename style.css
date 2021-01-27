@@ -38,7 +38,7 @@ nav > div > div > div > a:active {
 
 /* CSS Boton subir */
 
-.nav1 {
+.nav-button-up {
   font-size: 30px;
   position: fixed;
   bottom: 0;
@@ -47,7 +47,7 @@ nav > div > div > div > a:active {
   z-index: 20;
 }
 
-.enlaces1 {
+.link-button-up {
   padding: 0;
   list-style: none;
 }

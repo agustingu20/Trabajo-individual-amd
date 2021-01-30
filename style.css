@@ -868,6 +868,10 @@ footer > div > ul > li {
   font-size: 20px;
 }
 
+.icons-footer {
+  margin-top: 10px;
+}
+
 footer > div > ul > a:link {
   text-decoration: none;
   list-style: none;
@@ -881,7 +885,7 @@ footer > div > ul > a:visited {
 
 footer > div > ul > a:hover {
   text-decoration: none;
-  color: white;
+  color: red;
 }
 
 footer > div > ul > a:active {
